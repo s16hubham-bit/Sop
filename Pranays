@@ -1,0 +1,28 @@
+SOP 4
+
+<!doctype html>
+<html>
+<head>
+    <title>Audio On A Webpage</title>
+</head>
+
+<body>
+    <audio src="test.mp3" type="audio/mp3" autoplay>
+    </audio>
+</body>
+</html>
+
+<!doctype html>
+<html>
+<head>
+    <title>Audio On A Webpage with multiple file formats</title>
+</head>
+
+<body>
+    <audio controls autoplay>
+        <source src="test.mp3" type="audio/mp3" controls muted>
+        <source src="test.wav" type="audio/wav" controls muted>
+        <source src="test.ogg" type="audio/ogg" controls muted>
+    </audio>
+</body>
+</html>
